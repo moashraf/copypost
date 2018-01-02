@@ -15,6 +15,4 @@ Route::get('/', function () {
     return  ('welcome');
 });
 
-Route::get('user/{name?}', function ($name =null) {
-    return $name;
-});
+ 
